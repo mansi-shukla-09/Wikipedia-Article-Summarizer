@@ -1,0 +1,6 @@
+import wikipedia as wp
+
+query = str(input("Enter the desired topic: "))
+n = int(input("Number of required sentences: "))
+
+print(wp.summary(query, sentences = n))
